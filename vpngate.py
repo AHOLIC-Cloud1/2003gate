@@ -297,9 +297,21 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "saas.sin.fan:443,cdn.204910.best:443,www.mfyx.cn:443,p.etime.vip:443,cdn.ctn32.us.kg:443,cf.877774.xyz:443,spring.io:443,"
-        "cf.nyanya.moe:443,www.sloomb.com:443,op.chinwa.eu.cc:443,www.leics.police.uk:443,securecircle.com:443,www.shopify.com:443,"
-        "www.carousell.sg:443,www.dbs.com.sg:443,openai.com:443,linear.app:443,www.bilibili.com:443,uspto.gov:443,www.vmware.com:443",
+        "EDGE_HOSTS",
+        "api.gzcrtw.com:443,example.com:443,mokeedev.com:443,wppaunz.com:443,www.whatismyip.com:443,cf.777791.xyz:443,"
+        "moodle.org:443,cdn.7zz.cn:443,nist.gov:443,www.mlkj888.com:443,securecircle.com:443,absen.com:443,"
+        "salaryexpert.com:443,53.fs1.hubspotusercontent-na1.net:443,hitcon.org:443,jellyfin.roddy.eu.cc:443,"
+        "elegantthemes.com:443,www.akasantech.com:443,cf2.996616.xyz:443,spirol.com:443,spring.io:443,"
+        "markmonitor.com:443,ahrefs.com:443,encryptedsni.com:443,guide.for.edu.sg:443,kniu.cc:443,"
+        "stores.staples.com:443,staticdelivery.nexusmods.com:443,www.ox.ac.uk:443,cdn.sketch.com:443,01-qq.com:443,"
+        "cf.1o.ee:443,www.mfyx.cn:443,www.loc.gov:443,aimagazine.com:443,rocketreach.co:443,www.libvio.site:443,"
+        "ikankeji.com:443,leawo.org:443,cdn.cnno.de:443,cf-cname.xingpingcn.top:443,tinyurl.com:443,www.swowd.com:443,"
+        "baota.us.kg:443,page.mercer.com:443,www.udacity.com:443,my.vultr.com:443,op.chinwa.eu.cc:443,dx.doi.org:443,"
+        "s.ee:443,cf.090227.xyz:443,builtbybuffalo.com:443,www.scayle.com:443,www.visa.com.au:443,buyshoes.shop:443,"
+        "funko.com:443,rankmath.com:443,vayyar.com:443,cdn.ddeed.de:443,cdn.jwcmdr.top:443,cfip.1323123.xyz:443,"
+        "assets.bizclikmedia.net:443,www.hugedomains.com:443,sellerlogic.com:443,a.pub.network:443,"
+        "registry.yarnpkg.com:443,cdn.667891.xyz:443,qoj.ac:443,www.botafogo.com.br:443,auto.dolby.dpdns.org:443,"
+        "www.nomios.com:443"
     ).split(",")
     if h.strip()
 ]
