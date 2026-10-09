@@ -296,7 +296,9 @@ def build_outputs(results, raw_count, sstp_count, source):
 EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
-        "EDGE_HOSTS",
+EDGE_HOSTS = [
+    h.strip()
+    for h in os.environ.get(
         "EDGE_HOSTS",
         "api.gzcrtw.com:443,example.com:443,mokeedev.com:443,wppaunz.com:443,www.whatismyip.com:443,cf.777791.xyz:443,"
         "moodle.org:443,cdn.7zz.cn:443,nist.gov:443,www.mlkj888.com:443,securecircle.com:443,absen.com:443,"
